@@ -1,0 +1,82 @@
+body {
+	font-family: "LeeSeoyun";
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	background-image: url("./background.png");
+
+}
+.container {
+	width: 390px;
+	background-color: #ff9d73;
+	height: 100%;
+}
+.photos {
+    margin-top: 15px;
+    }
+
+.photo-frame {
+        background-color: white;
+        margin: 15px 20px;
+        height: 270px;
+        background-size: cover;
+        position: relative;
+        cursor: pointer;
+    }
+
+.footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+.f-title {
+        font-size: 25px;
+        font-weight: 900;
+        color: white;
+}
+.f-date {
+	font-size: 15px;
+	font-weight: 500;
+	color: white;
+}
+#image1 {
+	background-image: url("./둘에서.jpg");
+    
+}
+
+#image2 {
+	background-image: url("./셋으로.jpg");
+}
+
+#image3 {
+	background-image: url("./세가족에서.jpg");
+}
+
+#image4 {
+	background-image: url("./이젠넷으로.jpg");
+}
+
+.photo-description{
+    color: white;
+	background-color: black;
+    width: fit-content;
+	padding: 0 20px;
+	margin-bottom: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    transform: translate(-50%);
+    left: 50%;
+    opacity: 0;
+
+}
+
+.showText {
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}
+
+.hideText {
+	opacity: 0;
+}

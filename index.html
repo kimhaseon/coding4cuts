@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style> 
+        @font-face {
+        font-family: "LeeSeoyun";
+        src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff")
+          format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="photos">
+            <div id="image1"
+            class="photo-frame"
+            onmouseover="showText(1)"
+            onmouseout="hideText(1)"
+            onclick="alertText(1)">    
+              <span id="desc1" class="photo-description">
+                우리의 첫 연애
+              </span>
+            </div>
+
+            <div id="image2" 
+            class="photo-frame"	
+            onmouseover="showText(2)"
+            onmouseout="hideText(2)"
+            onclick="alertText(2)">
+                <span id="desc2" class="photo-description">
+                    둘에서 셋이 되기까지
+                  </span>
+            </div>
+
+            <div id="image3" 
+            class="photo-frame"
+            onmouseover="showText(3)"
+            onmouseout="hideText(3)"
+            onclick="alertText(3)">
+                <span id="desc3" class="photo-description">
+                    우리 세가족 에서 
+                  </span>
+            </div>
+
+            <div id="image4" 
+            class="photo-frame"
+            onmouseover="showText(4)"
+            onmouseout="hideText(4)"
+            onclick="alertText(4)">
+                <span id="desc4" class="photo-description">
+                    이젠 네 가족..!!
+                  </span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="f-title">Happy Lunch Time</p>
+            <p class="f-date">2023.02.25</p>
+        </div>
+    </div>
+    <script src="coding.js"> </script>
+</body>
+</html>
