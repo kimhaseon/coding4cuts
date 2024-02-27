@@ -36,5 +36,5 @@ function showText(number) {
   
 
   function alertText(number) {
-      alert(`${number}번째 추억이에요! 눌러주셔서 감사합니다 :)`);
+      alert(`${number}번째 추억이에요! :)`);
   }
